@@ -1,0 +1,2 @@
+# Aetheris
+NextJs frontend project
