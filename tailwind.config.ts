@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
+      fontFamily: {
+        sans: ['"Work Sans"', "sans-serif"],
       },
     },
   },

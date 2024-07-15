@@ -1,12 +1,14 @@
-import HeroSection from "@/components/template/home/hero-section";
+import FirstSection from "@/components/template/home/first-section";
+import MainSection from "@/components/template/home/main-section";
 
 export default function Home() {
   return (
     <div
-      id="first-section"
-      className="w-full min-h-screen container mx-auto px-8 bg-white text-black "
+      id="HomePage"
+      className="w-full h-screen container mx-auto px-8 bg-white text-black "
     >
-      <HeroSection />
+      <FirstSection />
+      <MainSection />
     </div>
   );
 }
